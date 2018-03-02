@@ -6,6 +6,7 @@ public class ReverseData {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Integer n = sc.nextInt();
+        sc.close();
         System.out.println(reverseData(n));
         
 	}

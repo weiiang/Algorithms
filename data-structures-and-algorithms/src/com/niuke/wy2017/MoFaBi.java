@@ -17,9 +17,6 @@ import java.util.Scanner;
  */
 public class MoFaBi {
 
-	// 需要的魔法币的数量
-	private static Integer n = 0;
-
 	public static void main(String[] args) {
 		System.out.println(magic(10));
 	}
@@ -28,7 +25,7 @@ public class MoFaBi {
 	@SuppressWarnings("resource")
 	public static void input() {
 		Scanner scanner = new Scanner(System.in);
-		n = scanner.nextInt();
+		scanner.nextInt();
 	}
 
 	public static String magic(int x) {

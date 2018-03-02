@@ -14,6 +14,7 @@ public class Chorus {
         int[] a = new int[n];  
         for(int i=0; i<n; i++)
         	a[i]=sc.nextInt();  
+        sc.close();
         //dp[i][j]表示小Q唱到第i个音符，博士唱到第j个音符，（我们自然也知道当前唱到的是max（i，j））  
         int[][] dp = new int[n+1][n+1];  
         for(int i=n-1; i>=0; i--) {  
